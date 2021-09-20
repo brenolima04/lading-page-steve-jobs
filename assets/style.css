@@ -1,0 +1,213 @@
+/* Introduzindo no body margin e paddin 0 para nao ter espaços na minha tela */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+/*Estilos aplicados ao header do meu site*/
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+
+}
+
+.logo {
+    font-size: 23px;
+}
+
+.container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    padding: 21px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+nav li a {
+    border: 1px solid #FFF;
+    padding: 10px;
+}
+
+
+/* Parte da 1 section do meu site*/
+
+#foto {
+    background-color: #CCC;
+    height: 600px;
+}
+
+.titulo_subtitulo {
+    text-align: center;
+    padding: 10px;
+    background-color: #EEE;
+}
+.titulo_foto {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.border_titulo {
+    background-color: black;
+    height: 1px;
+
+}
+
+.foto_steve_jobs {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.foto_mais_novo img {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.capa_livro_steve_jobs img {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 50%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.steve_com_iphone img {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.foto1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 220px;
+    margin-left: 10px;
+}
+
+.foto2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 220px;
+
+}
+.foto3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 220px;
+    margin-right: 20px;
+}
+
+.descricao_jobs {
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*Parte do css onde eu irei trabalhar o timeline do meu site */
+
+#timeline {
+    height: 400px;
+    background-color: black;
+}
+
+section h2 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+}
+
+.timeline_campos {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.timeline_desc {
+    background-color: white;
+    color: black;
+    padding:10px;
+    width: 600px;
+    border-radius: 5px;
+}
+.timeline_anos {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 2px;
+    font-weight: bold;
+}
+
+/* Parte do article onde coloco uma simples frase com um link pro wikipedia do autor*/
+
+#wiki {
+    height: 100px;
+    background-color: #CCC;
+}
+
+.wikipedia {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.wikipedia a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.wikipedia a:hover {
+    text-decoration: underline;
+}
+
+/* Parte do css onde eu vou mexer com os estilos*/
+
+.footer_copy {
+    height: 40px;
+    border-top: 1px solid #2c2c2c;
+    line-height: 40px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    background-color: #CCC;
+}
